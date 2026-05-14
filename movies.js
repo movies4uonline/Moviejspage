@@ -5,8 +5,8 @@ const allMovies = [
       year: "2026",
       lang: "MALAYALAM",
       rating: "5.8",
-      mainImg: "https://image.url/main.jpg",
-      backImg: "https://image.url/back.jpg",
+      img: "നിങ്ങളുടെ_പോസ്റ്റർ_ലിങ്ക്_ഇവിടെ_നൽകുക", // ഇതാണ് പോസ്റ്ററായും ബാക്ക്ഗ്രൗണ്ടായും വരുന്നത്
+      links: {
           malayalam: [
               { 
                 name: "1080p Full HD", 
@@ -14,19 +14,8 @@ const allMovies = [
                 mx: "mx_link_1080p", 
                 dl: "dl_link_1080p",
                 tg: "link" 
-              },
-              { 
-                name: "1080p Full HD", 
-                w: "link_1080p", 
-                mx: "mx_link_1080p", 
-                dl: "dl_link_1080p",
-                tg: "link"
-              },
-              { 
-                name: "1080p Full HD", 
-                w: "link_1080p", 
-                mx: "mx_link_1080p", 
-                dl: "dl_link_1080p",
-                tg: "link" 
               }
-          ],
+          ]
+      }
+    }
+];
